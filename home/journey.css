@@ -1,0 +1,251 @@
+body {
+  margin: 0; 
+  padding: 0;
+}
+
+
+.ripped-paper img {
+  width: 100%;
+  height: auto;
+
+}
+.cormorant-garamond-regular h3{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 5vh;
+}
+.cormorant-garamond-regular {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 150px; 
+  text-align: center; 
+}
+
+.outer{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  align-items: center;
+  justify-items: center;
+  height: 600px
+  margin-left: 8px;
+  margin-top: 30px;
+  
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  text-align: center; 
+  height: 640px;
+  margin-left: 10vh;
+  width: 400px;
+}
+.image1 img{
+  width: 360px;
+  object-fit: fill;
+  height:470px;
+}
+.fondamento-regular {
+  font-family: "Fondamento", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3vh;
+}
+.box2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.box2 img{
+  width: 450px;
+  height: 650px;
+  margin-left: 14px;
+  align-self: center;
+}
+.box3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  height: 640px;
+  width: 400px;
+  margin-left: 5vw;
+}
+.image3 img{
+  width: 400px;
+  height: 480px;
+}
+.girl{
+  display: flex;
+  height: 60vh;
+  width: auto;
+  background-color: rgba(225, 136, 101, 0.279);
+  margin-top: 20px;
+  position: relative; 
+}
+.girl1, .girl2 {
+  position: absolute; 
+}
+.girl1 img{
+  width: 400px;
+  height: 500px;
+  margin-top: 2vw;
+  margin-left: 5vw;
+}
+.girl2{
+  left: 20vw;
+  top:38vh;
+}
+.girl2 img{
+  width: 300px;
+  height:300px;
+  top:120px;
+  right: 3vw;
+  bottom: 0; 
+  margin: 10px;
+  border: 8px solid white;
+
+}
+.text {
+  align-items: center;
+  display: flex;
+  width: 580px;
+  height: 200px;
+  margin-left: 50vw;
+  margin-top: 18vh;
+
+}
+
+.cormorant-garamond-semibold-italic h2{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.boy{
+  margin-top:30vh;
+  height:480px;
+  display: flex;
+  flex-direction: row;
+  background-color: #be5d3391;
+}
+.text2{
+  align-self: start;
+  width: 580px;
+  height: 200px;
+  margin-left: 10vw;
+  margin-top: 10vh;
+}
+.boy2, .boy1{
+  right: 0;
+}
+
+.boy2 img{
+  width: 400px;
+  height: 500px;
+  margin-right: 4vw;
+  margin-top: -130px;
+}
+.boy1, .boy2 {
+  position: absolute; 
+}
+.boy1 img{
+  width: 300px;
+  height:300px;
+  margin-right: 22vw;
+  margin-top: 14vh;
+  border: 8px solid white;
+}
+.horizontal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12vh;
+  margin-left: 5vw;
+  margin-bottom: 10vh;
+  margin-right: 80px;
+  width:90%;
+  height:86vh;
+  position:absolute;
+}
+.cormorant-garamond-regular {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fox{
+  width: auto;
+  height: 900px;
+  margin-top: 760px;
+  background-color: #8b3d1cd0;
+}
+.message{
+  margin-top: 100vh;
+  text-decoration:solid;
+  display: flex;
+  justify-items: center;
+}
+.prop img{
+  width: 40vw;
+  height: auto;
+  border-top-left-radius: 50vw; /* Round the top left corner */
+  border-top-right-radius:50vw;
+}
+.prop{
+  margin:4vw;
+  height: 377.58px;
+}
+.pop1 {
+  margin-top: 30%;
+  margin-left: -10vw;
+  width: 600px;
+  height: 400px;
+}
+.pop1 img{
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border: 10px solid white;
+  border-bottom:40px solid white;
+  transform: rotate(15deg); 
+}
+.prop_text{
+  margin-top: 14%;
+  margin-right:6%;
+  margin-left: 8px;
+  width: 50vw;
+  align-items: center;
+}
+.prop_text h3{
+  font-family: "Oregano", serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 50px;
+  color: antiquewhite
+}
+.prop_text p{
+  font-family: "Fondamento", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:antiquewhite;
+  font-size:22px ;
+  margin-top: -30px;
+}
+
+footer {
+  margin-top: 70px;
+  background-color: #fa653848;
+  padding: 20px;
+  text-align: center;
+}
+.footer-content a {
+  color:brown;
+  margin:4px
+}
