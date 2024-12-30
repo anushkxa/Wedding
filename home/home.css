@@ -21,7 +21,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #de325422; /* Dark background for the nav */
+    /*background-color: #de325422; /* Dark background for the nav */
     padding: 10px 20px;
     height: 7vh; /* Padding around the nav */
     position: sticky;
@@ -32,7 +32,7 @@ nav {
 
 .logo img {
     height: 50px;
-    margin-left: 30px; /* Adjust logo size */
+    margin-left: 60px; /* Adjust logo size */
 }
 
 .nav-links {
@@ -56,6 +56,9 @@ nav {
 .nav-links a:hover {
     color: #d26363; 
     border-radius: 5px; /* Rounded corners */
+}
+.main {
+    width: 100%;
 }
 footer {
     background-color: #fa653848;
